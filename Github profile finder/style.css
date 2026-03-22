@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 0.8rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.search{
+    display: flex;
+    width: 50%;
+    max-width: 65rem;
+}
+.search input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+.search input:focus-visible{
+    outline: 1px solid rgb(22, 141, 18);
+}
+.primary-btn{
+    background: purple;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+.primary-btn:hover{
+    background: rgb(192, 1, 192);
+}
+.primary-btn:active{
+    background: rgb(248, 82, 248);
+}
+
+/* for Profile Box Styling */
+
+#profileContainer{
+    width: 100%;
+}
+
+.profile-box{
+    margin: auto;
+    padding: 4rem 2rem;
+    width: 90%;
+    max-width: 78rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+.profile-box:hover{
+    transform:rotate(-2deg) scale(1.01);
+    transition: 0.5s ease-in;
+}
+.top-section{
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+}
+.top-section button{
+    align-self: center;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.left-section h1{
+      font-size: 0.9rem;
+}
+.avatar{
+    height: 10rem;
+    width: 10rem;
+}
+.avatar img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.about{
+    margin: 2rem;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+     margin: 2rem;
+}
+
